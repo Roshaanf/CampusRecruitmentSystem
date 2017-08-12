@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Students"
+        app:showAsAction="never"
+        android:id="@+id/menuCompanyStudents"
+        />
+
+    <item
+        android:title="Add Vacancy"
+        app:showAsAction="never"
+        android:id="@+id/menuCompanyAddJobs"/>
+
+    <item
+        android:title="My Jobs"
+        app:showAsAction="never"
+        android:id="@+id/menuCompanyMyJobs"/>
+    <item
+        android:title="Logout"
+        app:showAsAction="never"
+        android:id="@+id/menuCompanyLogout"/>
+
+</menu>
